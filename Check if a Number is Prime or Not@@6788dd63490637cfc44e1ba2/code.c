@@ -8,7 +8,7 @@ int main (){
         ]
     }
     if(count==2){
-        pritf("Prime");
+        printf("Prime");
     
     }
     else{
