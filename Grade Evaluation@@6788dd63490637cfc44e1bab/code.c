@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     char grade;
     switch(grade){
         case 'A': 
@@ -20,5 +20,5 @@ void main(){
         default: 
         printf("Invalid grade");
     }
-    
+    return 0;
 }
