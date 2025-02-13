@@ -2,8 +2,8 @@
 int main (){
     int a;
     scanf("%d",&a);
-    switch(){
-        case 1: printf("Monday");
+    switch(a){
+        case 1: printf("Monday\n");
                break;
         case 2: printf("Tuesday");
                break;
