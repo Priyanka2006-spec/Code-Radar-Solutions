@@ -2,6 +2,6 @@
 int main(){
     int a;
     scanf("%d",&a);
-    a>=b? printf("Eligible"): printf("Not Eligible")
+    a>=b? printf("Eligible"): printf("Not Eligible");
     return 0;
 }
