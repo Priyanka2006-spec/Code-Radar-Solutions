@@ -5,11 +5,12 @@ int main(){
     if(a<b){
         printf("Profit");
     }
-    else if(a>b) {
+    else if(a>b){
         printf("Loss");
     }
-    else {
-        printf("No Profit No Loss");
+    else{
+        printf("No Profit No Loss")
     }
+   
     return 0;
 }
