@@ -2,8 +2,8 @@
 int main(){
     char c ;
     scanf("%c",&c);
-    if (ch>='a' && ch<= 'z' || ch>='A' && ch<='Z'){
-        if (ch=='a' || ch=='A' || ch=='e'|| ch=='E' || ch=='i' || ch=='o' || ch=='O' || ch=='u' || ch=='U'){
+    if (c>='a' && c<= 'z' || c>='A' && c<='Z'){
+        if (c=='a' || c=='A' || c=='e'|| c=='E' || c=='i' || c=='o' || c=='O' || c=='u' || c=='U'){
         printf("Vowel");
         }
         else{
@@ -12,7 +12,7 @@ int main(){
         
     }
     else{
-        if(ch>='0' && ch<='9'){
+        if(c>='0' && c<='9'){
             printf("Digit");
         }
         else{
