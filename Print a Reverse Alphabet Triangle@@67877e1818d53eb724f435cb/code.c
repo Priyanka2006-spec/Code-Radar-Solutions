@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n,c ;
-    scanf("%c",&c);
+    int n,ch ;
+    scanf("%c",&ch);
     for (int i = n; i >= 1; i--) {  // Loop for rows
         for (char ch = 'A'; ch < 'A' + i; ch++) {  // Loop for alphabets
             printf("%c", ch);
