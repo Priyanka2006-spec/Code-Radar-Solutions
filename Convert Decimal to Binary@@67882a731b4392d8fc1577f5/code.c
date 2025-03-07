@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void decimalToBinary(int num) {
+int main() {
+    int num;
     int binary[32]; // Array to store binary digits (max 32 bits for int)
     int index = 0;
 
