@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void printMirroredTriangle() {
+int main() {
     int n;
     scanf("%d",&n);
     for (int i = 1; i <= n; i++) {  // Loop for rows
