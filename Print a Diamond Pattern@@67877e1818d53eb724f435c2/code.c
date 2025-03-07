@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int n;
-    sanf("%d",&n);
+    scanf("%d",&n);
     // Upper part of the diamond
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n - i; j++)  // Print spaces
