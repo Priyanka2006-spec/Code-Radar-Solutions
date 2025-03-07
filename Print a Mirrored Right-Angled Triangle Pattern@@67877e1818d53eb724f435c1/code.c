@@ -1,15 +1,14 @@
 #include <stdio.h>
-int main(){
-    int i,j,n;
+
+void printMirroredTriangle() {
+    int n;
     scanf("%d",&n);
-    for (i=1;i<=n;i++){
-        for (j=1;j<n;j++){
+    for (int i = 1; i <= n; i++) {  // Loop for rows
+        for (int j = 1; j <= n - i; j++)  // Printing spaces
             printf(" ");
-        }
-        for (j=1;j<=i;j++){
+        for (int k = 1; k <= i; k++)  // Printing asterisks
             printf("*");
-        }
-        printf("\n");
+        printf("\n"); // Move to the next line
     }
     return 0;
 }
