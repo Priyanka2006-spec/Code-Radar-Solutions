@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void printFibonacci(int n) {
+void FibonacciSeries(int n) {
     int a = 0, b = 1, next;
 
     printf("Fibonacci Series: %d, %d", a, b);
@@ -23,7 +23,7 @@ int main() {
     if (n < 2) {
         printf("Please enter a number greater than or equal to 2.\n");
     } else {
-        printFibonacci(n);
+        printFibonacciSeries(n);
     }
 
     return 0;
